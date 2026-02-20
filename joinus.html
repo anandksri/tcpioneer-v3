@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Join Us - The Cyber Pioneer</title>
+    <!-- favicons -->
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+    <!-- meta description  -->
+    <meta name="description"
+        content="The Cyber Pioneer is a community dedicated to educating, inspiring, and uniting passionate students to develop ethical cybersecurity skills. Join us today!">
+
+    <!-- meta keyword -->
+    <meta name="keywords"
+        content="cybersecurity, ethical hacking, education, community, students, training, cybersecurity skills, digital threats, tc pioneer , the cyber pioneer, cyber pioneer, cyber pioneer community, cyber pioneer club, cyber pioneer group, cyber pioneer team,">
+
+    <!-- conical tag -->
+    <link rel="canonical" href="https://www.tcpioneer.org">
+
+    <!-- social medias integration -->
+    <meta property="og:title" content="The Cyber Pioneer - Empowering Future Cybersecurity Leaders">
+    <meta property="og:description"
+        content="Join a community of cybersecurity enthusiasts to learn and grow your skills in ethical hacking and more.">
+    <meta property="og:image" content="https://www.tcpioneer.org/images/nav-logo.png">
+    <meta property="og:url" content="https://www.tcpioneer.org">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="The Cyber Pioneer">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" />
+
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body class="bg-gradient-to-b from-gray-50 to-white">
+    <!-- Navigation -->
+    <nav class="bg-white shadow-lg fixed w-full z-50">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="flex justify-between items-center h-16">
+
+                <!-- Logo -->
+                <div class="flex-shrink-0">
+                    <img class="h-14 transition-transform duration-300 ease-in-out hover:scale-110"
+                        src="../images/nav-logo.png" alt="Cyber Pioneer Logo">
+                </div>
+
+                <!-- Navigation Links (Desktop) -->
+                <div class="hidden sm:flex space-x-8">
+                    <a href="index.html" class="text-gray-700 flex items-center space-x-2 text-lg">
+                        <i class="fas fa-home"></i>
+                        <span>Home</span>
+                    </a>
+                    <a href="about.html" class="text-gray-700 flex items-center space-x-2 text-lg">
+                        <i class="fas fa-info-circle"></i>
+                        <span>About</span>
+                    </a>
+                    <a href="tools.html" class="text-gray-700 flex items-center space-x-2 text-lg">
+                        <i class="fas fa-tools"></i>
+                        <span>Tools</span>
+                    </a>
+                    <a href="blog.html" class="text-gray-700 flex items-center space-x-2 text-lg">
+                        <i class="fas fa-blog"></i>
+                        <span>Blog</span>
+                    </a>
+                    <a href="feq.html" class="text-gray-700 flex items-center space-x-2 text-lg">
+                        <i class="fas fa-question-circle"></i>
+                        <span>FAQ</span>
+                    </a>
+                    <a href="contact.html" class="text-gray-700 flex items-center space-x-2 text-lg">
+                        <i class="fas fa-phone-alt"></i>
+                        <span>Contact</span>
+                    </a>
+                    <a href="joinus.html" class="text-blue-600 flex items-center space-x-2 text-lg">
+                        <i class="fas fa-user-plus"></i>
+                        <span>Join Us</span>
+                    </a>
+                </div>
+
+                <!-- Mobile Menu Button -->
+                <div class="sm:hidden">
+                    <button id="mobile-menu-button" class="text-gray-700 text-2xl mr-4 hamburger-transition">
+                        <i class="fas fa-bars" id="hamburger-icon"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="sm:hidden hidden bg-white shadow-md menu-transition transform translate-y-[-100%]">
+            <div class="flex flex-col items-center py-4 space-y-4 fade-in">
+                <a href="index.html" class="text-gray-700 flex items-center space-x-2 text-lg">
+                    <i class="fas fa-home"></i>
+                    <span>Home</span>
+                </a>
+                <a href="about.html" class="text-gray-700 flex items-center space-x-2 text-lg">
+                    <i class="fas fa-info-circle"></i>
+                    <span>About</span>
+                </a>
+                <a href="blog.html" class="text-gray-700 flex items-center space-x-2 text-lg">
+                    <i class="fas fa-blog"></i>
+                    <span>Blog</span>
+                </a>
+                <a href="feq.html" class="text-gray-700 flex items-center space-x-2 text-lg">
+                    <i class="fas fa-question-circle"></i>
+                    <span>FAQ</span>
+                </a>
+                <a href="contact.html" class="text-gray-700 flex items-center space-x-2 text-lg">
+                    <i class="fas fa-phone-alt"></i>
+                    <span>Contact</span>
+                </a>
+                <a href="joinus.html" class="text-gray-700 flex items-center space-x-2 text-lg">
+                    <i class="fas fa-user-plus"></i>
+                    <span>Join Us</span>
+                </a>
+            </div>
+        </div>
+    </nav>
+
+
+
+    <div class="content-wrapper">
+        <!-- Main Content -->
+        <main class="pt-20">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+                <!-- Header -->
+                <div class="text-center mb-12">
+                    <h1 class="text-4xl font-bold text-gray-900">Join Our Community</h1>
+                    <p class="mt-4 text-xl text-gray-600">Become part of our growing community of cybersecurity
+                        enthusiasts and make a difference.</p>
+                </div>
+
+                <div class="max-w-4xl mx-auto">
+
+                    <!-- Benefits Section -->
+                    <div class="max-w-4xl mx-auto">
+                        <div class="bg-white rounded-xl shadow-lg p-8 mb-12" data-aos="fade-up">
+                            <h2 class="text-3xl font-bold text-gray-900 text-center mb-8">Why Join Us? ♥</h2>
+                            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                                <!-- Learn & Grow -->
+                                <div class="text-center">
+                                    <div class="bg-yellow-100 p-4 rounded-full w-16 h-16 mx-auto mb-4">
+                                        <svg class="w-8 h-8 text-yellow-500 mx-auto" fill="none" stroke="currentColor"
+                                            viewBox="0 0 24 24">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                                d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                                        </svg>
+                                    </div>
+                                    <h3 class="font-bold text-gray-900 mb-2">Learn & Grow</h3>
+                                    <p class="text-gray-600">Access workshops, webinars, and rich learning resources</p>
+                                </div>
+
+                                <!-- Network -->
+                                <div class="text-center">
+                                    <div class="bg-green-100 p-4 rounded-full w-16 h-16 mx-auto mb-4">
+                                        <svg class="w-8 h-8 text-green-600 mx-auto" fill="none" stroke="currentColor"
+                                            viewBox="0 0 24 24">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                                d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
+                                        </svg>
+                                    </div>
+                                    <h3 class="font-bold text-gray-900 mb-2">Network</h3>
+                                    <p class="text-gray-600">Connect with professionals and like-minded peers</p>
+                                </div>
+
+                                <!-- Hands-on Experience -->
+                                <div class="text-center">
+                                    <div class="bg-purple-100 p-4 rounded-full w-16 h-16 mx-auto mb-4">
+                                        <svg class="w-8 h-8 text-purple-600 mx-auto" fill="none" stroke="currentColor"
+                                            viewBox="0 0 24 24">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                                d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z" />
+                                        </svg>
+                                    </div>
+                                    <h3 class="font-bold text-gray-900 mb-2">Hands-on Experience</h3>
+                                    <p class="text-gray-600">Get involved in real projects, labs, and simulations</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                    <!-- Community Channels -->
+                    <div class="max-w-4xl mx-auto" data-aos="fade-up">
+                        <div class="bg-white rounded-xl shadow-lg p-8 mb-12" data-aos="fade-up">
+                            <h2 class="text-3xl font-bold text-gray-900 text-center mb-8">Join Our Community Channels 🚀
+                            </h2>
+                            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                                <!-- WhatsApp -->
+                                <div class="text-center">
+                                    <div class="bg-green-100 p-4 rounded-full w-16 h-16 mx-auto mb-4">
+                                        <svg class="w-8 h-8 text-green-600 mx-auto" fill="none" stroke="currentColor"
+                                            viewBox="0 0 24 24">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                                d="M16.72 11.06a8.94 8.94 0 01-5.5 5.5l-3.22.86.86-3.22a8.94 8.94 0 015.5-5.5l2.36 2.36z" />
+                                        </svg>
+                                    </div>
+                                    <h3 class="font-bold text-gray-900 mb-2">Join WhatsApp</h3>
+                                    <p class="text-gray-600 mb-4">Stay updated with our latest announcements</p>
+                                    <a href="https://chat.whatsapp.com/KvmhzByz2ZFLFn9EA7ApOH" target="_blank"
+                                        class="inline-block bg-green-500 text-white px-4 py-2 rounded-full hover:bg-green-600 transition">
+                                        Join WhatsApp
+                                    </a>
+                                </div>
+
+                                <!-- Telegram -->
+                                <div class="text-center">
+                                    <div class="bg-blue-100 p-4 rounded-full w-16 h-16 mx-auto mb-4">
+                                        <svg class="w-8 h-8 text-blue-600 mx-auto" fill="none" stroke="currentColor"
+                                            viewBox="0 0 24 24">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                                d="M3 10l19-6-8.5 17-2.5-7.5L3 10z" />
+                                        </svg>
+                                    </div>
+                                    <h3 class="font-bold text-gray-900 mb-2">Join Telegram</h3>
+                                    <p class="text-gray-600 mb-4">Get real-time updates and community support</p>
+                                    <a href="https://t.me/tcpioneer_official" target="_blank"
+                                        class="inline-block bg-blue-500 text-white px-4 py-2 rounded-full hover:bg-blue-600 transition">
+                                        Join Telegram
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                    <!-- Application Form -->
+                    <div class="bg-white rounded-xl shadow-lg p-8 mb-12" data-aos="fade-up">
+                        <h2
+                            class="text-3xl font-bold text-gray-900 text-center mb-8 flex items-center justify-center gap-3">
+                            <div class="bg-blue-100 p-2 rounded-full">
+                                <svg class="w-5 h-5 text-blue-600" fill="none" stroke="currentColor" stroke-width="2"
+                                    viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2a4.978 4.978 0 00-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2a4.978 4.978 0 01.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0z" />
+                                </svg>
+                            </div>
+                            Work With Us
+                        </h2>
+
+                        <form class="max-w-2xl mx-auto space-y-6" action="process_form.php" method="POST"
+                            onsubmit="return validateForm()">
+                            <!-- Full Name -->
+                            <div>
+                                <label for="fullName" class="block text-sm font-medium text-gray-700 mb-1">Full
+                                    Name</label>
+                                <div class="relative">
+                                    <span class="absolute inset-y-0 left-0 flex items-center pl-3">
+                                        <svg class="w-5 h-5 text-blue-500" fill="none" stroke="currentColor"
+                                            viewBox="0 0 24 24">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                                d="M5.121 17.804A4 4 0 0112 15a4 4 0 016.879 2.804M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+                                        </svg>
+                                    </span>
+                                    <input type="text" id="fullName" name="fullName" placeholder="Enter your full name"
+                                        class="w-full pl-10 px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition-colors duration-300"
+                                        required>
+                                </div>
+                            </div>
+
+                            <!-- Email -->
+                            <div>
+                                <label for="email" class="block text-sm font-medium text-gray-700 mb-1">Email
+                                    address</label>
+                                <div class="relative">
+                                    <span class="absolute inset-y-0 left-0 flex items-center pl-3">
+                                        <svg class="w-5 h-5 text-green-500" fill="none" stroke="currentColor"
+                                            viewBox="0 0 24 24">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                                d="M16 12H8m8 0a4 4 0 01-8 0 4 4 0 018 0zM4 4h16v16H4V4z" />
+                                        </svg>
+                                    </span>
+                                    <input type="email" id="email" name="email" placeholder="Enter your email"
+                                        class="w-full pl-10 px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-green-500 focus:border-green-500 transition-colors duration-300"
+                                        required>
+                                </div>
+                                <p id="emailError" class="text-red-500 text-sm mt-1 hidden">Please enter a valid email
+                                    address.</p>
+                            </div>
+
+                            <!-- Phone Number (Responsive) -->
+                            <div>
+                                <label for="phone" class="block text-sm font-medium text-gray-700 mb-1">Phone
+                                    Number</label>
+                                <div
+                                    class="flex flex-col sm:flex-row sm:items-center sm:space-x-2 space-y-2 sm:space-y-0">
+                                    <div class="relative w-full sm:w-1/3">
+                                        <span class="absolute inset-y-0 left-0 flex items-center pl-2">
+                                            <svg class="w-4 h-4 text-purple-500" fill="none" stroke="currentColor"
+                                                viewBox="0 0 24 24">
+                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                                    d="M3 5h2l3.6 7.59-1.35 2.44A1 1 0 008 17h12v-2H8.42c-.14 0-.25-.11-.25-.25l.03-.12L9.1 13h7.45a1 1 0 00.95-.68l1.43-4.29A1 1 0 0018 7H6.21l-.94-2H3z" />
+                                            </svg>
+                                        </span>
+                                        <select id="countryCode" name="countryCode"
+                                            class="pl-7 w-full px-3 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-purple-500 focus:border-purple-500 transition-colors duration-300">
+                                            <option value="+91">🇮🇳 +91</option>
+                                            <option value="+977" selected>🇳🇵 +977</option>
+                                        </select>
+                                    </div>
+                                    <input type="tel" id="phone" name="phone" placeholder="Enter phone number"
+                                        class="w-full sm:w-2/3 px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-purple-500 focus:border-purple-500 transition-colors duration-300"
+                                        required>
+                                </div>
+                            </div>
+
+                            <!-- Message -->
+                            <div>
+                                <label for="message"
+                                    class="block text-sm font-medium text-gray-700 mb-1">Message</label>
+                                <div class="relative">
+                                    <span class="absolute top-3 left-3">
+                                        <svg class="w-5 h-5 text-pink-500" fill="none" stroke="currentColor"
+                                            viewBox="0 0 24 24">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                                d="M8 10h.01M12 10h.01M16 10h.01M21 12c0-4.97-4.03-9-9-9S3 7.03 3 12a9 9 0 0016.84 3.31l2.12.71-.71-2.12A8.963 8.963 0 0021 12z" />
+                                        </svg>
+                                    </span>
+                                    <textarea id="message" name="message" rows="4"
+                                        placeholder="Tell us why you want to work"
+                                        class="w-full pl-10 pr-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-pink-500 focus:border-pink-500 transition-colors duration-300 resize-none"
+                                        required></textarea>
+                                </div>
+                            </div>
+
+                            <!-- Submit Button -->
+                            <div class="pt-4">
+                                <button type="submit"
+                                    class="w-full bg-gradient-to-r from-blue-600 to-indigo-700 hover:from-indigo-700 hover:to-indigo-800 text-white font-bold py-3 px-6 rounded-lg transition-all duration-300 transform hover:-translate-y-1 hover:shadow-lg flex items-center justify-center gap-2">
+                                    <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2"
+                                        viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round"
+                                            d="M14 5l7 7m0 0l-7 7m7-7H3" />
+                                    </svg>
+                                    Submit Application
+                                </button>
+                            </div>
+
+                            <!-- Disclaimer -->
+                            <div class="text-center text-sm text-gray-500">
+                                <p>By submitting this form, you agree to our <a href="Disclaimer.html"
+                                        class="text-blue-600 hover:text-blue-800 underline">Terms and Conditions</a></p>
+                            </div>
+                        </form>
+                    </div>
+
+
+
+
+                </div>
+            </div>
+        </main>
+
+        <!-- Footer -->
+        <footer class="bg-gray-800 text-white py-8 mt-16">
+            <div class="max-w-7xl mx-auto px-4">
+                <div class="grid md:grid-cols-3 gap-8">
+                    <!-- About Section -->
+                    <div>
+                        <h3 class="text-2xl font-semibold mb-4">About Us</h3>
+                        <p class="text-gray-400 mb-4">We are The Cyber Pioneer, a community dedicated to educating and
+                            raising awareness about cybersecurity. Join us in exploring the ever-changing world of
+                            security
+                            and technology.</p>
+                        <div class="flex space-x-4">
+                            <!-- Social Media Icons -->
+                            <a href="https://www.facebook.com/profile.php?id=61572927504079"
+                                class="text-gray-400 hover:text-white transition-colors">
+                                <i class="fab fa-facebook-f text-xl"></i>
+                            </a>
+                            <a href="https://www.youtube.com/@tcpioneer"
+                                class="text-gray-400 hover:text-white transition-colors">
+                                <i class="fab fa-youtube text-xl"></i>
+                            </a>
+                            <a href="https://wa.me/919205313045" target="_blank"
+                                class="text-gray-400 hover:text-white transition-colors">
+                                <i class="fab fa-whatsapp text-xl"></i>
+                            </a>
+
+                            <a href="https://www.instagram.com/tcpioneerorg/"
+                                class="text-gray-400 hover:text-white transition-colors">
+                                <i class="fab fa-instagram text-xl"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Quick Links Section -->
+                    <div>
+                        <h3 class="text-2xl font-semibold mb-4">Quick Links</h3>
+                        <ul>
+                            <li><a href="index.html" class="text-gray-400 hover:text-white transition-colors">Home</a>
+                            </li>
+                            <li><a href="about.html" class="text-gray-400 hover:text-white transition-colors">About</a>
+                            </li>
+                            <li><a href="tools.html" class="text-gray-400 hover:text-white transition-colors">Tools</a>
+                            </li>
+                            <li><a href="blog.html" class="text-gray-400 hover:text-white transition-colors">Blog</a>
+                            </li>
+                            <li><a href="feq.html" class="text-gray-400 hover:text-white transition-colors">FAQ</a></li>
+                            <li><a href="contact.html"
+                                    class="text-gray-400 hover:text-white transition-colors">Contact</a>
+                            </li>
+                            <li><a href="disclaimer.html"
+                                    class="text-gray-400 hover:text-white transition-colors">Disclaimer</a></li>
+                            <li><a href="joinus.html" class="text-gray-400 hover:text-white transition-colors">Join
+                                    Us</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- Contact Section -->
+                    <div>
+                        <h3 class="text-2xl font-semibold mb-4">Contact Us</h3>
+                        <p class="text-gray-400 mb-4">Feel free to reach out for any questions or collaborations.</p>
+                        <p class="text-gray-400 mb-2"><i class="fas fa-phone-alt"></i>+977 9746819176</p>
+                        <p class="text-gray-400 mb-2"><i class="fas fa-envelope"></i> contact@tcpioneer.org</p>
+                        <p class="text-gray-400"><i class="fas fa-map-marker-alt"></i> Birgunj , Nepal </p>
+                    </div>
+                </div>
+
+                <!-- Bottom Footer -->
+                <div class="mt-8 border-t border-gray-700 pt-4 text-center">
+                    <p class="text-gray-400 text-sm">&copy; 2025 The Cyber Pioneer. All rights reserved.</p>
+                    <p class="text-gray-400 text-sm mt-4">
+                        Developed by
+                        <a href="https://anandkeshari.com.np" target="_blank"
+                            class="text-blue-400 hover:text-blue-500 no-underline">
+                            Anand Keshari
+                        </a>
+                    </p>
+
+                </div>
+            </div>
+        </footer>
+
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+        <script src="../js/main.js"></script>
+        <script src="../js/transitions.js"></script>
+        <script type="application/ld+json">
+            {
+              "@context": "https://schema.org",
+              "@type": "WebSite",
+              "name": "The Cyber Pioneer",
+              "url": "https://www.tcpioneer.org",
+              "description": "A community dedicated to cybersecurity education and skill development."
+            }
+            </script>
+
+        <script>
+            function validateForm() {
+                const emailInput = document.getElementById('email');
+                const emailError = document.getElementById('emailError');
+                const email = emailInput.value.trim();
+
+                // General email format check
+                const basicEmailPattern = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
+
+                if (!basicEmailPattern.test(email)) {
+                    emailError.textContent = "Please enter a valid email address.";
+                    emailError.classList.remove('hidden');
+                    return false;
+                }
+
+                // Optional: Block obviously fake domains
+                const blockedDomains = ['example.com', 'test.com', 'fake.com', 'email.com'];
+                const domain = email.split('@')[1];
+                if (blockedDomains.includes(domain)) {
+                    emailError.textContent = "Please use a real email domain.";
+                    emailError.classList.remove('hidden');
+                    return false;
+                }
+
+                emailError.classList.add('hidden');
+                return true;
+            }
+        </script>
+
+
+</body>
+
+</html>

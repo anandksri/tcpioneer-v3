@@ -1,0 +1,573 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bug Bounty - The Cyber Pioneer</title>
+    <!-- favicon -->
+    <link rel="icon" href="../images/favicon.ico" type="image/x-icon">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+    <!-- meta description  -->
+    <meta name="description"
+        content="The Cyber Pioneer is a community dedicated to educating, inspiring, and uniting passionate students to develop ethical cybersecurity skills. Join us today!">
+
+    <!-- meta keyword -->
+    <meta name="keywords"
+        content="cybersecurity, ethical hacking, education, community, students, training, cybersecurity skills, digital threats, tc pioneer , the cyber pioneer, cyber pioneer, cyber pioneer community, cyber pioneer club, cyber pioneer group, cyber pioneer team,">
+
+    <!-- conical tag -->
+    <link rel="canonical" href="https://www.tcpioneer.org">
+
+    <!-- social medias integration -->
+    <meta property="og:title" content="The Cyber Pioneer - Empowering Future Cybersecurity Leaders">
+    <meta property="og:description"
+        content="Join a community of cybersecurity enthusiasts to learn and grow your skills in ethical hacking and more.">
+    <meta property="og:image" content="https://www.tcpioneer.org/images/nav-logo.png">
+    <meta property="og:url" content="https://www.tcpioneer.org">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="The Cyber Pioneer">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS & Icons -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet" />
+
+    <!-- custom css -->
+    <link rel="stylesheet" href="../css/blog-style.css">
+  </head>
+
+<body class="bg-gradient-to-b from-gray-50 to-white">
+    <!-- Navigation -->
+    <nav class="bg-white shadow-lg fixed w-full z-50">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="flex justify-between items-center h-16">
+    
+                <!-- Logo -->
+                <div class="flex-shrink-0">
+                    <img class="h-14 transition-transform duration-300 ease-in-out hover:scale-110"
+                        src="../images/nav-logo.png" alt="Cyber Pioneer Logo">
+                </div>
+    
+                <!-- Navigation Links (Desktop) -->
+                <div class="hidden sm:flex space-x-8">
+                    <a href="../index.html" class="text-grey-700 flex items-center space-x-2 text-lg">
+                        <i class="fas fa-home"></i>
+                        <span>Home</span>
+                    </a>
+                    <a href="../about.html" class="text-gray-700 flex items-center space-x-2 text-lg">
+                        <i class="fas fa-info-circle"></i>
+                        <span>About</span>
+                    </a>
+                    <a href="../blog.html" class="text-gray-700 flex items-center space-x-2 text-lg">
+                        <i class="fas fa-blog"></i>
+                        <span>Blog</span>
+                    </a>
+                    <a href="../feq.html" class="text-gray-700 flex items-center space-x-2 text-lg">
+                        <i class="fas fa-question-circle"></i>
+                        <span>FAQ</span>
+                    </a>
+                    <a href="../contact.html" class="text-gray-700 flex items-center space-x-2 text-lg">
+                        <i class="fas fa-phone-alt"></i>
+                        <span>Contact</span>
+                    </a>
+                    <a href="../joinus.html" class="text-gray-700 flex items-center space-x-2 text-lg">
+                        <i class="fas fa-user-plus"></i>
+                        <span>Join Us</span>
+                    </a>
+                </div>
+    
+                <!-- Mobile Menu Button -->
+                <div class="sm:hidden">
+                    <button id="mobile-menu-button" class="text-gray-700 text-2xl mr-4 hamburger-transition">
+                        <i class="fas fa-bars" id="hamburger-icon"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="sm:hidden hidden bg-white shadow-md menu-transition transform translate-y-[-100%]">
+            <div class="flex flex-col items-center py-4 space-y-4 fade-in">
+                <a href="../index.html" class="text-gray-700 flex items-center space-x-2 text-lg">
+                    <i class="fas fa-home"></i>
+                    <span>Home</span>
+                </a>
+                <a href="../about.html" class="text-gray-700 flex items-center space-x-2 text-lg">
+                    <i class="fas fa-info-circle"></i>
+                    <span>About</span>
+                </a>
+                <a href="../blog.html" class="text-gray-700 flex items-center space-x-2 text-lg">
+                    <i class="fas fa-blog"></i>
+                    <span>Blog</span>
+                </a>
+                <a href="../feq.html" class="text-gray-700 flex items-center space-x-2 text-lg">
+                    <i class="fas fa-question-circle"></i>
+                    <span>FAQ</span>
+                </a>
+                <a href="../contact.html" class="text-gray-700 flex items-center space-x-2 text-lg">
+                    <i class="fas fa-phone-alt"></i>
+                    <span>Contact</span>
+                </a>
+                <a href="../joinus.html" class="text-gray-700 flex items-center space-x-2 text-lg">
+                    <i class="fas fa-user-plus"></i>
+                    <span>Join Us</span>
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <div class="container" style="width: 95%;">
+
+        <!-- Title -->
+        <h1 class="blog-title mt-20">Bug Bounty: What It Is and How to Get Started</h1>
+
+        <!-- Blog Image -->
+        <img src="../blog-images/bug-bounty.png" alt="Bug Bounty Image" class="blog-image" loading="lazy">
+
+        <!-- Content -->
+        <div class="blog-section">
+            <!-- Introduction -->
+            <p><i class="bi bi-shield-lock"></i> In the ever-evolving world of cybersecurity, <strong>Bug Bounty
+                    Programs</strong> have become a game-changer. These programs enable companies to pay hackers to
+                break into their systems—legally! With cyberattacks on the rise, companies now rely on ethical hackers
+                to identify and fix vulnerabilities before malicious actors can exploit them. It's a win-win: companies
+                improve their security posture, and hackers are rewarded for their skills.</p>
+
+            <p>As security threats evolve, traditional methods often fall short in identifying complex vulnerabilities.
+                Bug Bounty Programs provide a proactive approach, offering a platform for skilled individuals to test
+                systems and help prevent data breaches. These programs allow hackers to report flaws directly to the
+                company, making it possible for organizations to patch their systems before they’re compromised.</p>
+
+            <p>In this blog post, we’ll explore what Bug Bounty Programs are, how they work, and how you can start
+                participating as a bug bounty hunter. Whether you're just starting your cybersecurity journey or you're
+                an experienced hacker, this guide will provide the insights you need to dive into the world of ethical
+                hacking.</p>
+
+            <!-- What is a Bug Bounty? -->
+            <h3 style="padding-bottom: 10px;"><i class="bi bi-bug" style="font-size: 1.5rem; padding-right: 8px;"></i>
+                What is a Bug Bounty?</h3>
+            <p style="padding-bottom: 15px;">
+                A <strong>Bug Bounty Program</strong> is a security initiative where organizations offer rewards to
+                individuals (often ethical hackers) for identifying and reporting security flaws in their systems,
+                websites, or applications.
+            </p>
+
+            <p style="padding-bottom: 15px;">
+                Here’s how it works:
+            </p>
+
+            <ul style="padding-left: 20px; padding-bottom: 15px;">
+                <li style="padding-bottom: 10px;">
+                    <i class="bi bi-file-earmark-arrow-up" style="font-size: 1.2rem; padding-right: 8px;"></i>
+                    <strong>Company’s Invitation:</strong> Companies create and announce bug bounty programs, inviting
+                    hackers to find vulnerabilities in their systems.
+                </li>
+
+                <li style="padding-bottom: 10px;">
+                    <i class="bi bi-search" style="font-size: 1.2rem; padding-right: 8px;"></i>
+                    <strong>Bug Discovery:</strong> Hackers use various techniques to find vulnerabilities such as
+                    Cross-Site Scripting (XSS), SQL Injection, and more.
+                </li>
+
+                <li style="padding-bottom: 10px;">
+                    <i class="bi bi-pencil" style="font-size: 1.2rem; padding-right: 8px;"></i>
+                    <strong>Reporting:</strong> When a hacker identifies a vulnerability, they report it through a
+                    structured system, typically provided by a bug bounty platform.
+                </li>
+
+                <li style="padding-bottom: 10px;">
+                    <i class="bi bi-shield-lock" style="font-size: 1.2rem; padding-right: 8px;"></i>
+                    <strong>Verification:</strong> The company’s security team verifies the vulnerability, assesses its
+                    severity, and prioritizes its fix.
+                </li>
+
+                <li style="padding-bottom: 10px;">
+                    <i class="bi bi-gift" style="font-size: 1.2rem; padding-right: 8px;"></i>
+                    <strong>Reward:</strong> If the vulnerability is valid, the hacker receives a reward—usually based
+                    on the severity and potential impact of the bug.
+                </li>
+            </ul>
+
+            <p style="padding-bottom: 15px;">
+                Bug bounty programs enable companies to tap into a global network of skilled ethical hackers, enhancing
+                their security defenses with fresh perspectives and expertise.
+            </p>
+
+
+
+            <!-- How Bug Bounty Programs Work -->
+            <h3 style="padding-bottom: 10px;"><i class="bi bi-trophy"
+                    style="font-size: 1.5rem; padding-right: 8px;"></i> How Bug Bounty Programs Work</h3>
+            <p style="padding-bottom: 15px;">
+                Bug bounty programs operate in a structured process. Here’s how they typically work:
+            </p>
+
+            <ul style="padding-left: 20px; padding-bottom: 15px;">
+                <li style="padding-bottom: 10px;">
+                    <i class="bi bi-megaphone" style="font-size: 1.2rem; padding-right: 8px;"></i>
+                    <strong>Program Announcement:</strong> Companies announce bug bounty programs on platforms like <a
+                        href="https://www.hackerone.com" target="_blank">HackerOne</a> or <a
+                        href="https://www.bugcrowd.com" target="_blank">Bugcrowd</a>, inviting hackers to participate.
+                </li>
+
+                <li style="padding-bottom: 10px;">
+                    <i class="bi bi-box-arrow-in-down-left" style="font-size: 1.2rem; padding-right: 8px;"></i>
+                    <strong>Scope Definition:</strong> The company defines the scope of the program, specifying the
+                    systems or areas that hackers can test.
+                </li>
+
+                <li style="padding-bottom: 10px;">
+                    <i class="bi bi-tools" style="font-size: 1.2rem; padding-right: 8px;"></i>
+                    <strong>Testing Phase:</strong> Hackers use various tools and techniques to find vulnerabilities,
+                    such as <strong>Burp Suite</strong>, <strong>Wireshark</strong>, and <strong>Metasploit</strong>.
+                </li>
+
+                <li style="padding-bottom: 10px;">
+                    <i class="bi bi-clipboard-check" style="font-size: 1.2rem; padding-right: 8px;"></i>
+                    <strong>Reporting:</strong> Once a vulnerability is found, the hacker submits a detailed report to
+                    the company with all necessary information for verification.
+                </li>
+
+                <li style="padding-bottom: 10px;">
+                    <i class="bi bi-shield-check" style="font-size: 1.2rem; padding-right: 8px;"></i>
+                    <strong>Verification:</strong> The company's security team verifies the bug and evaluates its
+                    severity and impact on their systems.
+                </li>
+
+                <li style="padding-bottom: 10px;">
+                    <i class="bi bi-wallet2" style="font-size: 1.2rem; padding-right: 8px;"></i>
+                    <strong>Reward:</strong> If the bug is confirmed as valid, the hacker receives a reward bas
+
+                    <!-- Benefits of Bug Bounty Programs -->
+                    <h3><i class="bi bi-lightning"></i> Benefits of Bug Bounty Programs</h3>
+                    <table>
+                        <tr>
+                            <th>Benefit</th>
+                            <th>Description</th>
+                        </tr>
+                        <tr>
+                            <td>Enhanced Security</td>
+                            <td>Identifies and resolves security vulnerabilities before malicious hackers can exploit
+                                them.</td>
+                        </tr>
+                        <tr>
+                            <td>Cost-Effective</td>
+                            <td>Companies only pay for valid reports, reducing overall security costs.</td>
+                        </tr>
+                        <tr>
+                            <td>Continuous Improvement</td>
+                            <td>Encourages companies to strengthen their security posture continuously.</td>
+                        </tr>
+                        <tr>
+                            <td>Global Talent Access</td>
+                            <td>Companies gain access to the expertise of skilled hackers worldwide.</td>
+                        </tr>
+                        <tr>
+                            <td>Community Engagement</td>
+                            <td>Builds a stronger relationship between companies and the ethical hacking community.</td>
+                        </tr>
+                    </table>
+
+                    <!-- Top Bug Bounty Platforms -->
+                    <h3 style="padding-bottom: 10px;"><i class="bi bi-award"
+                            style="font-size: 1.5rem; padding-right: 8px;"></i> Top Bug Bounty Platforms</h3>
+                    <p style="padding-bottom: 15px;">
+                        If you’re looking to get started in bug bounty hunting, these platforms provide the best
+                        opportunities to participate in various programs. Each platform has its own unique features, but
+                        they all connect hackers with organizations seeking to improve their security.
+                    </p>
+
+                    <ul style="list-style-type: none; padding-left: 0;">
+                        <li style="padding-bottom: 15px;">
+                            <i class="bi bi-star" style="font-size: 1.5rem; padding-right: 10px;"></i>
+                            <strong><a href="https://www.hackerone.com" target="_blank"
+                                    style="text-decoration: none; color: #007bff;">HackerOne</a>:</strong> One of the
+                            largest platforms, connecting hackers with global companies.
+                        </li>
+                        <li style="padding-bottom: 15px;">
+                            <i class="bi bi-star" style="font-size: 1.5rem; padding-right: 10px;"></i>
+                            <strong><a href="https://www.bugcrowd.com" target="_blank"
+                                    style="text-decoration: none; color: #007bff;">Bugcrowd</a>:</strong> Provides
+                            access to both public and private bug bounty programs.
+                        </li>
+                        <li style="padding-bottom: 15px;">
+                            <i class="bi bi-star" style="font-size: 1.5rem; padding-right: 10px;"></i>
+                            <strong>Synack:</strong> High-stakes programs with rigorous vetting for experienced hackers.
+                        </li>
+                        <li style="padding-bottom: 15px;">
+                            <i class="bi bi-star" style="font-size: 1.5rem; padding-right: 10px;"></i>
+                            <strong>Intigriti:</strong> Focuses on European markets and offers rapid payout options.
+                        </li>
+                    </ul>
+
+                    <p style="padding-bottom: 15px;">
+                        These platforms offer various rewards, scopes, and levels of difficulty, allowing bug bounty
+                        hunters to find opportunities that match their skills and interests. Whether you're just
+                        starting or are an experienced professional, these platforms can help you expand your reach and
+                        refine your abilities.
+                    </p>
+
+
+                    <!-- Real-World Bug Bounty Success Stories -->
+                    <h3 style="padding-bottom: 10px;"><i class="bi bi-person-check"
+                            style="font-size: 1.5rem; padding-right: 8px;"></i> Real-World Bug Bounty Success Stories
+                    </h3>
+                    <p style="padding-bottom: 15px;">
+                        Bug bounty programs have led to some remarkable success stories, with hackers earning
+                        significant rewards and recognition for their skills. Here are some notable examples that
+                        highlight the potential of bug bounty hunting.
+                    </p>
+
+                    <ul style="list-style-type: none; padding-left: 0;">
+                        <li style="padding-bottom: 15px;">
+                            <i class="bi bi-check-circle" style="font-size: 1.5rem; padding-right: 10px;"></i>
+                            <strong>HackerOne Millionaire:</strong> In 2019, a 19-year-old hacker became a millionaire
+                            by identifying critical bugs in major companies.
+                        </li>
+                        <li style="padding-bottom: 15px;">
+                            <i class="bi bi-check-circle" style="font-size: 1.5rem; padding-right: 10px;"></i>
+                            <strong>Google’s Rewards:</strong> Google’s bug bounty program has paid over <strong>$30
+                                million</strong> since its launch in 2010.
+                        </li>
+                        <li style="padding-bottom: 15px;">
+                            <i class="bi bi-check-circle" style="font-size: 1.5rem; padding-right: 10px;"></i>
+                            <strong>Facebook Login Fix:</strong> A researcher earned <strong>$10,000</strong> for
+                            discovering a vulnerability in Facebook’s login system.
+                        </li>
+                        <li style="padding-bottom: 15px;">
+                            <i class="bi bi-check-circle" style="font-size: 1.5rem; padding-right: 10px;"></i>
+                            <strong>Apple Pay Bug:</strong> In 2022, a hacker earned <strong>$100,000</strong> for
+                            exposing a vulnerability in Apple Pay that could lead to unauthorized payments.
+                        </li>
+                    </ul>
+
+                    <p style="padding-bottom: 15px;">
+                        These stories illustrate the power of bug bounty programs, where individuals can turn their
+                        skills into substantial rewards. If you're considering joining the world of ethical hacking,
+                        these success stories are a great source of inspiration!
+                    </p>
+
+
+                    <!-- How to Get Started as a Bug Bounty Hunter -->
+                    <!-- How to Get Started as a Bug Bounty Hunter -->
+                    <h3 style="padding-bottom: 10px;"><i class="bi bi-play-circle"
+                            style="font-size: 1.5rem; padding-right: 8px;"></i> How to Get Started as a Bug Bounty
+                        Hunter</h3>
+                    <p style="padding-bottom: 15px;">
+                        Getting started as a bug bounty hunter requires both the right knowledge and the right tools.
+                        Below are the essential steps to take your first steps into the world of ethical hacking.
+                    </p>
+
+                    <ol style="padding-left: 20px; padding-bottom: 20px;">
+                        <li style="padding-bottom: 15px;">
+                            <i class="bi bi-book" style="font-size: 1.5rem; padding-right: 10px;"></i>
+                            <strong>Learn the Basics:</strong> Familiarize yourself with common vulnerabilities, such as
+                            <strong>OWASP Top 10</strong> (XSS, SQL Injection, CSRF). Understanding these flaws is key
+                            to identifying them in real-world applications.
+                        </li>
+                        <li style="padding-bottom: 15px;">
+                            <i class="bi bi-hdd-stack" style="font-size: 1.5rem; padding-right: 10px;"></i>
+                            <strong>Set Up a Lab:</strong> Build a virtual testing environment using tools like
+                            <strong>Burp Suite</strong>, <strong>Wireshark</strong>, and <strong>Metasploit</strong> to
+                            practice and hone your skills in a safe environment.
+                        </li>
+                        <li style="padding-bottom: 15px;">
+                            <i class="bi bi-person-lines-fill" style="font-size: 1.5rem; padding-right: 10px;"></i>
+                            <strong>Join Platforms:</strong> Sign up on popular bug bounty platforms like <a
+                                href="https://www.hackerone.com" target="_blank">HackerOne</a> and <a
+                                href="https://www.bugcrowd.com" target="_blank">Bugcrowd</a> to get access to real-world
+                            programs.
+                        </li>
+                        <li style="padding-bottom: 15px;">
+                            <i class="bi bi-flag" style="font-size: 1.5rem; padding-right: 10px;"></i>
+                            <strong>Start Small:</strong> Focus on low-severity bugs first. These might be easier to
+                            find and will help you build your confidence and reporting skills before targeting critical
+                            vulnerabilities.
+                        </li>
+                        <li style="padding-bottom: 15px;">
+                            <i class="bi bi-laptop" style="font-size: 1.5rem; padding-right: 10px;"></i>
+                            <strong>Practice with CTFs:</strong> Capture The Flag (CTF) challenges are a great way to
+                            sharpen your skills. Participate in CTF events hosted on platforms like <a
+                                href="https://www.hackthebox.eu" target="_blank">Hack The Box</a> to practice real-world
+                            attacks in a controlled environment.
+                        </li>
+                        <li style="padding-bottom: 15px;">
+                            <i class="bi bi-lightbulb" style="font-size: 1.5rem; padding-right: 10px;"></i>
+                            <strong>Stay Updated:</strong> Follow security blogs, attend conferences, and join online
+                            communities to stay on top of the latest vulnerabilities and best practices in bug bounty
+                            hunting.
+                        </li>
+                    </ol>
+
+                    <p style="padding-bottom: 15px;">
+                        These steps will help you build a solid foundation as a bug bounty hunter. While the journey may
+                        seem daunting at first, remember that persistence and continuous learning are key to success.
+                    </p>
+
+
+
+                    <!-- Challenges in Bug Bounty Hunting -->
+                    <h3 style="padding-bottom: 10px;"><i class="bi bi-exclamation-triangle"
+                            style="font-size: 1.5rem; padding-right: 8px;"></i> Challenges in Bug Bounty Hunting</h3>
+                    <p style="padding-bottom: 15px;">
+                        While bug bounty hunting can be rewarding, it comes with its own set of challenges.
+                        Understanding these challenges can help you better prepare and manage your expectations as you
+                        dive deeper into the world of ethical hacking.
+                    </p>
+
+                    <ul style="padding-left: 20px; padding-bottom: 20px;">
+                        <li style="padding-bottom: 15px;">
+                            <i class="bi bi-person-dash" style="font-size: 1.5rem; padding-right: 10px;"></i>
+                            <strong>High Competition:</strong> Bug bounty platforms attract skilled hackers from around
+                            the world. The competition can be fierce, especially for high-reward vulnerabilities.
+                        </li>
+                        <li style="padding-bottom: 15px;">
+                            <i class="bi bi-puzzle" style="font-size: 1.5rem; padding-right: 10px;"></i>
+                            <strong>Restricted Scopes:</strong> Many programs have limitations on what can be tested.
+                            Understanding and working within these restrictions can be challenging, as it limits your
+                            ability to fully explore the system.
+                        </li>
+                        <li style="padding-bottom: 15px;">
+                            <i class="bi bi-shield-lock" style="font-size: 1.5rem; padding-right: 10px;"></i>
+                            <strong>Difficulty Replicating Vulnerabilities:</strong> Some vulnerabilities are difficult
+                            to reproduce or require specific conditions, making them challenging to identify and report
+                            accurately.
+                        </li>
+                        <li style="padding-bottom: 15px;">
+                            <i class="bi bi-lightning-charge" style="font-size: 1.5rem; padding-right: 10px;"></i>
+                            <strong>Persistence Required:</strong> Bug bounty hunting requires patience and persistence.
+                            Finding significant vulnerabilities often takes time, and not every attempt will be
+                            successful.
+                        </li>
+                    </ul>
+
+                    <p style="padding-bottom: 15px;">
+                        Despite these challenges, bug bounty hunting can be a rewarding and highly educational
+                        experience. By facing and overcoming these obstacles, you'll grow as an ethical hacker and
+                        increase your chances of success in the field.
+                    </p>
+
+
+        </div>
+
+        <!-- Conclusion -->
+        <div class="conclusion-box">
+            <h5 style="font-size: 1.5rem; padding-bottom: 10px;"><i class="bi bi-patch-check"
+                    style="font-size: 1.5rem; padding-right: 8px;"></i> Conclusion</h5>
+            <p style="padding-bottom: 15px;">
+                Bug bounty programs offer a unique opportunity for both organizations and ethical hackers. Companies
+                improve their security, while hackers gain recognition, rewards, and the chance to showcase their
+                skills.
+            </p>
+            <p style="padding-bottom: 15px;">
+                If you’re passionate about cybersecurity and have a knack for problem-solving, bug bounty hunting could
+                be your gateway to success. Start small, keep learning, and join a growing community of ethical hackers
+                making a real difference in the digital world!
+            </p>
+            <p style="text-align: center; padding-bottom: 15px;">
+                <i class="bi bi-arrow-up-circle" style="font-size: 1.5rem; padding-right: 8px;"></i> <strong>Ready to
+                    dive in? Start your journey today!</strong>
+            </p>
+        </div>
+
+        <!-- Author -->
+        <div class="author-info" style="padding-top: 20px;">
+            <p><i class="bi bi-person-circle"></i> Written by <strong>Anand keshari</strong></p>
+            <p><i class="bi bi-calendar-check"></i> Published on March 21, 2025</p>
+        </div>
+    </div>
+
+
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-8 mt-16">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="grid md:grid-cols-3 gap-8">
+                <!-- About Section -->
+                <div>
+                    <h3 class="text-2xl font-semibold mb-4">About Us</h3>
+                    <p class="text-gray-400 mb-4">We are The Cyber Pioneer, a community dedicated to educating and
+                        raising awareness about cybersecurity. Join us in exploring the ever-changing world of security
+                        and technology.</p>
+                    <div class="flex space-x-4">
+                        <!-- Social Media Icons -->
+                        <a href="https://www.facebook.com/profile.php?id=61572927504079"
+                            class="text-gray-400 hover:text-white transition-colors">
+                            <i class="fab fa-facebook-f text-xl"></i>
+                        </a>
+                        <a href="https://www.youtube.com/@tcpioneer"
+                            class="text-gray-400 hover:text-white transition-colors">
+                            <i class="fab fa-youtube text-xl"></i>
+                        </a>
+                        <a href="https://discord.gg/FhF3sy2w" class="text-gray-400 hover:text-white transition-colors">
+                            <i class="fab fa-discord text-xl"></i>
+                        </a>
+                        <a href="https://www.instagram.com/tcpioneerorg/"
+                            class="text-gray-400 hover:text-white transition-colors">
+                            <i class="fab fa-instagram text-xl"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Quick Links Section -->
+                <div>
+                    <h3 class="text-2xl font-semibold mb-4">Quick Links</h3>
+                    <ul>
+                        <li><a href="../index.html" class="text-gray-400 hover:text-white transition-colors">Home</a>
+                        </li>
+                        <li><a href="../about.html" class="text-gray-400 hover:text-white transition-colors">About</a></li>
+                        <li><a href="../blog.html" class="text-gray-400 hover:text-white transition-colors">Blog</a></li>
+                        <li><a href="../feq.html" class="text-gray-400 hover:text-white transition-colors">FAQ</a></li>
+                        <li><a href="../contact.html" class="text-gray-400 hover:text-white transition-colors">Contact</a>
+                        </li>
+                        <li><a href="../disclaimer.html"
+                                class="text-gray-400 hover:text-white transition-colors">Disclaimer</a></li>
+                        <li><a href="../joinus.html" class="text-gray-400 hover:text-white transition-colors">Join Us</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Contact Section -->
+                <div>
+                    <h3 class="text-2xl font-semibold mb-4">Contact Us</h3>
+                    <p class="text-gray-400 mb-4">Feel free to reach out for any questions or collaborations.</p>
+                    <p class="text-gray-400 mb-2"><i class="fas fa-phone-alt"></i> +977 9845 *****</p>
+                    <p class="text-gray-400 mb-2"><i class="fas fa-envelope"></i> contact@tcpioneer.org</p>
+                    <p class="text-gray-400"><i class="fas fa-map-marker-alt"></i> Birgunj , Nepal </p>
+                </div>
+            </div>
+
+            <!-- Bottom Footer -->
+            <div class="mt-8 border-t border-gray-700 pt-4 text-center">
+                <p class="text-gray-400 text-sm">&copy; 2025 The Cyber Pioneer. All rights reserved.</p>
+                <p class="text-gray-400 text-sm mt-4">Developed by <a href="http://anandkeshari.com.np" target="_blank"
+                        class="text-gray-400 hover:text-white transition-colors">Anand Keshari</a></p>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script src="../js/main.js"></script>
+    <script src="../js/transitions.js"></script>
+    <script type="application/ld+json">
+        {
+          "@context": "https://schema.org",
+          "@type": "WebSite",
+          "name": "The Cyber Pioneer",
+          "url": "https://www.tcpioneer.org",
+          "description": "A community dedicated to cybersecurity education and skill development."
+        }
+        </script>
+</body>
+
+</html>

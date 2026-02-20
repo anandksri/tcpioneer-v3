@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Cyber Pioneer - Empowering Future Cybersecurity Leaders</title>
+    <!-- favicons -->
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+
+    <!-- meta description  -->
+    <meta name="description"
+        content="The Cyber Pioneer is a community dedicated to educating, inspiring, and uniting passionate students to develop ethical cybersecurity skills. Join us today!">
+
+    <!-- meta keyword -->
+    <meta name="keywords"
+        content="cybersecurity, ethical hacking, education, community, students, training, cybersecurity skills, digital threats, tc pioneer , the cyber pioneer, cyber pioneer, cyber pioneer community, cyber pioneer club, cyber pioneer group, cyber pioneer team,">
+
+    <!-- conical tag -->
+    <link rel="canonical" href="https://www.tcpioneer.org">
+
+    <!-- social medias integration -->
+    <meta property="og:title" content="The Cyber Pioneer - Empowering Future Cybersecurity Leaders">
+    <meta property="og:description"
+        content="Join a community of cybersecurity enthusiasts to learn and grow your skills in ethical hacking and more.">
+    <meta property="og:image" content="https://www.tcpioneer.org/images/nav-logo.png">
+    <meta property="og:url" content="https://www.tcpioneer.org">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="The Cyber Pioneer">
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" />
+</head>
+
+<body class="bg-gradient-to-b from-gray-50 to-white">
+    <!-- Navigation -->
+    <nav class="bg-white shadow-lg fixed w-full z-50">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="flex justify-between items-center h-16">
+
+                <!-- Logo -->
+                <div class="flex-shrink-0">
+                    <img class="h-14 transition-transform duration-300 ease-in-out hover:scale-110"
+                        src="../images/nav-logo.png" alt="Cyber Pioneer Logo">
+                </div>
+
+                <!-- Navigation Links (Desktop) -->
+                <div class="hidden sm:flex space-x-8">
+                    <a href="index.html" class="text-blue-600 flex items-center space-x-2 text-lg">
+                        <i class="fas fa-home"></i>
+                        <span>Home</span>
+                    </a>
+                    <a href="about.html" class="text-gray-700 flex items-center space-x-2 text-lg">
+                        <i class="fas fa-info-circle"></i>
+                        <span>About</span>
+                    </a>
+                    <a href="tools.html" class="text-gray-700 flex items-center space-x-2 text-lg">
+                        <i class="fas fa-tools"></i>
+                        <span>Tools</span>
+                    </a>
+                    <a href="blog.html" class="text-gray-700 flex items-center space-x-2 text-lg">
+                        <i class="fas fa-blog"></i>
+                        <span>Blog</span>
+                    </a>
+                    <a href="feq.html" class="text-gray-700 flex items-center space-x-2 text-lg">
+                        <i class="fas fa-question-circle"></i>
+                        <span>FAQ</span>
+                    </a>
+                    <a href="contact.html" class="text-gray-700 flex items-center space-x-2 text-lg">
+                        <i class="fas fa-phone-alt"></i>
+                        <span>Contact</span>
+                    </a>
+                    <a href="joinus.html" class="text-gray-700 flex items-center space-x-2 text-lg">
+                        <i class="fas fa-user-plus"></i>
+                        <span>Join Us</span>
+                    </a>
+                </div>
+
+                <!-- Mobile Menu Button -->
+                <div class="sm:hidden">
+                    <button id="mobile-menu-button" class="text-gray-700 text-2xl mr-4 hamburger-transition">
+                        <i class="fas fa-bars" id="hamburger-icon"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="sm:hidden hidden bg-white shadow-md menu-transition transform translate-y-[-100%]">
+            <div class="flex flex-col items-center py-4 space-y-4 fade-in">
+                <a href="index.html" class="text-gray-700 flex items-center space-x-2 text-lg">
+                    <i class="fas fa-home"></i>
+                    <span>Home</span>
+                </a>
+                <a href="about.html" class="text-gray-700 flex items-center space-x-2 text-lg">
+                    <i class="fas fa-info-circle"></i>
+                    <span>About</span>
+                </a>
+                <a href="blog.html" class="text-gray-700 flex items-center space-x-2 text-lg">
+                    <i class="fas fa-blog"></i>
+                    <span>Blog</span>
+                </a>
+                <a href="feq.html" class="text-gray-700 flex items-center space-x-2 text-lg">
+                    <i class="fas fa-question-circle"></i>
+                    <span>FAQ</span>
+                </a>
+                <a href="contact.html" class="text-gray-700 flex items-center space-x-2 text-lg">
+                    <i class="fas fa-phone-alt"></i>
+                    <span>Contact</span>
+                </a>
+                <a href="joinus.html" class="text-gray-700 flex items-center space-x-2 text-lg">
+                    <i class="fas fa-user-plus"></i>
+                    <span>Join Us</span>
+                </a>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- Hero Section -->
+    <section class="hero-section">
+        <div class="hero-content">
+            <div class="main-text">
+                <h1 id="line1"></h1>
+                <h1 id="line2"></h1>
+            </div>
+            <p class="sec-text">Empowering students with ethical cybersecurity skills to tackle digital challenges and
+                innovate for a safer tomorrow.</p>
+            <div class="d-flex justify-content-center gap-3 flex-wrap mt-3">
+                <a href="joinus.html" class="btn btn-custom btn-primary-custom">Join Us</a>
+                <a href="about.html" class="btn btn-custom btn-secondary-custom">Learn More</a>
+            </div>
+        </div>
+
+        <!-- Floating Icons -->
+        <div class="floating-icons">
+            <i class="fas fa-laptop-code"></i>
+            <i class="fas fa-graduation-cap"></i>
+            <i class="fas fa-robot"></i>
+            <i class="fas fa-book"></i>
+            <i class="fas fa-microchip"></i>
+        </div>
+    </section>
+
+    <!-- objectives -->
+    <!-- Font Awesome CDN for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <section class="objectives">
+        <div class="container">
+            <div class="core-values-section mb-10" data-aos="fade-up">
+                <h1 class="font-bold text-center text-3xl text-gray-900 mb-10">
+                    <i class="fas fa-bolt text-blue-600 mr-2"></i> Empowering Through Technology
+                </h1>
+                <div class="core-card">
+                    <h3><i class="fas fa-shield-halved text-blue-600 mr-2"></i> Cyber Awareness Training</h3>
+                    <p>Educating individuals and organizations on safe online practices and recognizing threats.</p>
+                </div>
+
+                <div class="core-card">
+                    <h3><i class="fas fa-chalkboard-teacher text-green-600 mr-2"></i> Workshops & Bootcamps</h3>
+                    <p>Hands-on sessions to build practical skills in ethical hacking, digital forensics, and more.</p>
+                </div>
+
+                <div class="core-card">
+                    <h3><i class="fas fa-network-wired text-yellow-500 mr-2"></i> Network Security Programs</h3>
+                    <p>Protecting digital infrastructures by teaching defensive strategies and secure configurations.
+                    </p>
+                </div>
+
+                <div class="core-card">
+                    <h3><i class="fas fa-laptop-code text-purple-600 mr-2"></i> Capture The Flag (CTF) Events</h3>
+                    <p>Gamified challenges that sharpen problem-solving, hacking, and reverse engineering skills.</p>
+                </div>
+
+                <div class="core-card">
+                    <h3><i class="fas fa-users-cog text-red-500 mr-2"></i> Community Meetups</h3>
+                    <p>Bringing together cybersecurity enthusiasts to network, collaborate, and share insights.</p>
+                </div>
+
+                <div class="core-card">
+                    <h3><i class="fas fa-globe text-pink-500 mr-2"></i> Online Campaigns</h3>
+                    <p>Spreading cybersecurity awareness through digital platforms and social media initiatives.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- mission and about -->
+    <div class="max-w-7xl mx-auto px-4 py-16">
+        <div class="grid md:grid-cols-2 gap-8 items-center">
+            <!-- Left Side: Our Mission -->
+            <div class="order-2 md:order-1 text-center md:text-left">
+                <h2 class="text-3xl font-bold text-gray-900 mb-4">
+                    <i class="fas fa-bullseye text-blue-600 mr-2"></i>Our Mission
+                </h2>
+                <p class="text-gray-600 leading-relaxed tracking-wide text-justify">
+                    To educate, inspire, and unite passionate students to develop ethical cybersecurity skills. We aim
+                    to create a collaborative community that fosters knowledge-sharing, promotes innovation, and
+                    prepares members to tackle digital threats responsibly. By focusing on hands-on learning and
+                    real-world application, we equip our members with the tools they need to thrive in the ever-changing
+                    field of cybersecurity. Our ultimate goal is to build a safer digital world where security
+                    professionals are equipped to handle evolving cyber threats, while upholding the principles of
+                    integrity and continuous learning.
+                </p>
+            </div>
+
+            <!-- Right Side: Image with Animation -->
+            <div class="order-1 md:order-2 flex justify-center">
+                <img src="images/mission.jpeg" alt="Our Mission"
+                    class="w-64 h-64 object-cover rounded-lg shadow-xl hover:shadow-2xl transform hover:scale-105 transition-all duration-500">
+            </div>
+        </div>
+    </div>
+
+    <!-- About Us Section -->
+    <div class="bg-gradient-to-b from-gray-50 to-white px-4 py-16">
+        <div class="max-w-7xl mx-auto">
+            <div class="grid md:grid-cols-2 gap-8 items-center">
+                <!-- Left Side: Image with Animation -->
+                <div class="flex justify-center">
+                    <img src="images/about.jpeg" alt="About Us"
+                        class="w-64 h-64 object-cover rounded-lg shadow-xl hover:shadow-2xl transform hover:scale-105 transition-all duration-500">
+                </div>
+
+                <!-- Right Side: About Us Content with Icons -->
+                <div>
+                    <h2 class="text-3xl font-bold text-gray-900 mb-4 text-center md:text-left">
+                        <i class="fas fa-users text-green-600 mr-2"></i>About Us
+                    </h2>
+                    <p class="text-gray-600 leading-relaxed tracking-wide text-justify">
+                        The Cyber Pioneer is a community of cybersecurity enthusiasts who are passionate about ethical
+                        practices, learning, and collaboration. We believe that the key to building a safer digital
+                        world lies in continuous education and the development of responsible cybersecurity skills. Our
+                        community is focused on providing a supportive environment where individuals can learn from each
+                        other, share knowledge, and grow together. Whether you're just starting in cybersecurity or are
+                        looking to take your skills to the next level, our community is here to help you succeed.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Testimonials Section -->
+    <div class="bg-white py-16">
+        <div class="max-w-7xl mx-auto px-4">
+            <h2 class="text-3xl font-bold text-gray-900 mb-8 text-center">
+                <i class="fas fa-comments text-blue-600 mr-2"></i> What Our Students Say &hearts;
+            </h2>
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8" data-aos="fade-up">
+                <!-- Testimonial 1 -->
+                <div
+                    class="bg-gray-50 p-6 rounded-lg shadow-lg hover:shadow-2xl transform hover:scale-105 transition-all duration-300">
+                    <i class="fas fa-quote-left text-gray-500 text-3xl mb-4"></i>
+                    <p class="text-gray-600 leading-relaxed mb-4">"The Cyber Pioneer has been a game-changer for me. The
+                        hands-on experience and community support are unparalleled."</p>
+                    <div class="text-right">
+                        <p class="text-blue-600 font-bold">- Sumit Shah</p>
+                    </div>
+                </div>
+                <!-- Testimonial 2 -->
+                <div
+                    class="bg-gray-50 p-6 rounded-lg shadow-lg hover:shadow-2xl transform hover:scale-105 transition-all duration-300">
+                    <i class="fas fa-quote-left text-gray-500 text-3xl mb-4"></i>
+                    <p class="text-gray-600 leading-relaxed mb-4">"I have learned so much about ethical hacking and
+                        cybersecurity. The mentors are knowledgeable and always willing to help."</p>
+                    <div class="text-right">
+                        <p class="text-blue-600 font-bold">- Ankit Thakur</p>
+                    </div>
+                </div>
+                <!-- Testimonial 3 -->
+                <div
+                    class="bg-gray-50 p-6 rounded-lg shadow-lg hover:shadow-2xl transform hover:scale-105 transition-all duration-300">
+                    <i class="fas fa-quote-left text-gray-500 text-3xl mb-4"></i>
+                    <p class="text-gray-600 leading-relaxed mb-4">"Joining The Cyber Pioneer was the best decision I
+                        made. The resources and community are top-notch."</p>
+                    <div class="text-right">
+                        <p class="text-blue-600 font-bold">- Arun Gupta</p>
+                    </div>
+                </div>
+                <!-- Testimonial 4 -->
+                <div
+                    class="bg-gray-50 p-6 rounded-lg shadow-lg hover:shadow-2xl transform hover:scale-105 transition-all duration-300">
+                    <i class="fas fa-quote-left text-gray-500 text-3xl mb-4"></i>
+                    <p class="text-gray-600 leading-relaxed mb-4">"The collaborative environment and practical training
+                        have prepared me well for a career in cybersecurity."</p>
+                    <div class="text-right">
+                        <p class="text-blue-600 font-bold">- Aarav Raj</p>
+                    </div>
+                </div>
+                <!-- Testimonial 5 -->
+                <div
+                    class="bg-gray-50 p-6 rounded-lg shadow-lg hover:shadow-2xl transform hover:scale-105 transition-all duration-300">
+                    <i class="fas fa-quote-left text-gray-500 text-3xl mb-4"></i>
+                    <p class="text-gray-600 leading-relaxed mb-4">"The Cyber Pioneer community is incredibly supportive.
+                        I've gained valuable skills and made lifelong friends."</p>
+                    <div class="text-right">
+                        <p class="text-blue-600 font-bold">- Aadarsh Sharma</p>
+                    </div>
+                </div>
+                <!-- Testimonial 6 -->
+                <div
+                    class="bg-gray-50 p-6 rounded-lg shadow-lg hover:shadow-2xl transform hover:scale-105 transition-all duration-300">
+                    <i class="fas fa-quote-left text-gray-500 text-3xl mb-4"></i>
+                    <p class="text-gray-600 leading-relaxed mb-4">"The training and mentorship at The Cyber Pioneer have
+                        been instrumental in my professional growth."</p>
+                    <div class="text-right">
+                        <p class="text-blue-600 font-bold">- Aman Gupta</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-8 mt-16">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="grid md:grid-cols-3 gap-8">
+                <!-- About Section -->
+                <div>
+                    <h3 class="text-2xl font-semibold mb-4">About Us</h3>
+                    <p class="text-gray-400 mb-4">We are The Cyber Pioneer, a community dedicated to educating and
+                        raising awareness about cybersecurity. Join us in exploring the ever-changing world of security
+                        and technology.</p>
+                    <div class="flex space-x-4">
+                        <!-- Social Media Icons -->
+                        <a href="https://www.facebook.com/profile.php?id=61572927504079"
+                            class="text-gray-400 hover:text-white transition-colors">
+                            <i class="fab fa-facebook-f text-xl"></i>
+                        </a>
+                        <a href="https://www.youtube.com/@tcpioneer"
+                            class="text-gray-400 hover:text-white transition-colors">
+                            <i class="fab fa-youtube text-xl"></i>
+                        </a>
+                        <a href="https://wa.me/919205313045" target="_blank"
+                            class="text-gray-400 hover:text-white transition-colors">
+                            <i class="fab fa-whatsapp text-xl"></i>
+                        </a>
+
+                        <a href="https://www.instagram.com/tcpioneerorg/"
+                            class="text-gray-400 hover:text-white transition-colors">
+                            <i class="fab fa-instagram text-xl"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Quick Links Section -->
+                <div>
+                    <h3 class="text-2xl font-semibold mb-4">Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html" class="text-gray-400 hover:text-white transition-colors">Home</a></li>
+                        <li><a href="about.html" class="text-gray-400 hover:text-white transition-colors">About</a></li>
+                        <li><a href="tools.html" class="text-gray-400 hover:text-white transition-colors">Tools</a></li>
+                        <li><a href="blog.html" class="text-gray-400 hover:text-white transition-colors">Blog</a></li>
+                        <li><a href="feq.html" class="text-gray-400 hover:text-white transition-colors">FAQ</a></li>
+                        <li><a href="contact.html" class="text-gray-400 hover:text-white transition-colors">Contact</a>
+                        </li>
+                        <li><a href="disclaimer.html"
+                                class="text-gray-400 hover:text-white transition-colors">Disclaimer</a></li>
+                        <li><a href="joinus.html" class="text-gray-400 hover:text-white transition-colors">Join Us</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Contact Section -->
+                <div>
+                    <h3 class="text-2xl font-semibold mb-4">Contact Us</h3>
+                    <p class="text-gray-400 mb-4">Feel free to reach out for any questions or collaborations.</p>
+                    <p class="text-gray-400 mb-2"><i class="fas fa-phone-alt"></i>+977 9746819176</p>
+                    <p class="text-gray-400 mb-2"><i class="fas fa-envelope"></i> contact@tcpioneer.org</p>
+                    <p class="text-gray-400"><i class="fas fa-map-marker-alt"></i> Birgunj , Nepal </p>
+                </div>
+            </div>
+
+            <!-- Bottom Footer -->
+            <div class="mt-8 border-t border-gray-700 pt-4 text-center">
+                <p class="text-gray-400 text-sm">&copy; 2025 The Cyber Pioneer. All rights reserved.</p>
+                <p class="text-gray-400 text-sm mt-4">
+                    Developed by
+                    <a href="https://anandkeshari.com.np" target="_blank"
+                        class="text-blue-400 hover:text-blue-500 no-underline">
+                        Anand Keshari
+                    </a>
+                </p>
+
+            </div>
+        </div>
+    </footer>
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/transitions.js"></script>
+    <script type="application/ld+json">
+        {
+          "@context": "https://schema.org",
+          "@type": "WebSite",
+          "name": "The Cyber Pioneer",
+          "url": "https://www.tcpioneer.org",
+          "description": "A community dedicated to cybersecurity education and skill development."
+        }
+        </script>
+
+</body>
+
+</html>

@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog - The Cyber Pioneer</title>
+       <!-- favicons -->
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+    <!-- meta description  -->
+    <meta name="description"
+        content="The Cyber Pioneer is a community dedicated to educating, inspiring, and uniting passionate students to develop ethical cybersecurity skills. Join us today!">
+
+    <!-- meta keyword -->
+    <meta name="keywords"
+        content="cybersecurity, ethical hacking, education, community, students, training, cybersecurity skills, digital threats, tc pioneer , the cyber pioneer, cyber pioneer, cyber pioneer community, cyber pioneer club, cyber pioneer group, cyber pioneer team,">
+
+    <!-- conical tag -->
+    <link rel="canonical" href="https://www.tcpioneer.org">
+
+    <!-- social medias integration -->
+    <meta property="og:title" content="The Cyber Pioneer - Empowering Future Cybersecurity Leaders">
+    <meta property="og:description"
+        content="Join a community of cybersecurity enthusiasts to learn and grow your skills in ethical hacking and more.">
+    <meta property="og:image" content="https://www.tcpioneer.org/images/nav-logo.png">
+    <meta property="og:url" content="https://www.tcpioneer.org">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="The Cyber Pioneer">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" />
+
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body class="bg-gradient-to-b from-gray-50 to-white">
+    <!-- Navigation -->
+    <nav class="bg-white shadow-lg fixed w-full z-50">
+      <div class="max-w-7xl mx-auto px-4">
+          <div class="flex justify-between items-center h-16">
+  
+              <!-- Logo -->
+              <div class="flex-shrink-0">
+                  <img class="h-14 transition-transform duration-300 ease-in-out hover:scale-110"
+                      src="../images/nav-logo.png" alt="Cyber Pioneer Logo">
+              </div>
+  
+              <!-- Navigation Links (Desktop) -->
+              <div class="hidden sm:flex space-x-8">
+                  <a href="index.html" class="text-gray-700 flex items-center space-x-2 text-lg">
+                      <i class="fas fa-home"></i>
+                      <span>Home</span>
+                  </a>
+                  <a href="about.html" class="text-gray-700 flex items-center space-x-2 text-lg">
+                      <i class="fas fa-info-circle"></i>
+                      <span>About</span>
+                  </a>
+                  <a href="tools.html" class="text-gray-700 flex items-center space-x-2 text-lg">
+                      <i class="fas fa-tools"></i>
+                      <span>Tools</span>
+                  </a>
+                  <a href="blog.html" class="text-blue-600 flex items-center space-x-2 text-lg">
+                      <i class="fas fa-blog"></i>
+                      <span>Blog</span>
+                  </a>
+                  <a href="feq.html" class="text-gray-700 flex items-center space-x-2 text-lg">
+                      <i class="fas fa-question-circle"></i>
+                      <span>FAQ</span>
+                  </a>
+                  <a href="contact.html" class="text-gray-700 flex items-center space-x-2 text-lg">
+                      <i class="fas fa-phone-alt"></i>
+                      <span>Contact</span>
+                  </a>
+                  <a href="joinus.html" class="text-gray-700 flex items-center space-x-2 text-lg">
+                      <i class="fas fa-user-plus"></i>
+                      <span>Join Us</span>
+                  </a>
+              </div>
+  
+              <!-- Mobile Menu Button -->
+              <div class="sm:hidden">
+                  <button id="mobile-menu-button" class="text-gray-700 text-2xl mr-4 hamburger-transition">
+                      <i class="fas fa-bars" id="hamburger-icon"></i>
+                  </button>
+              </div>
+          </div>
+      </div>
+  
+      <!-- Mobile Menu -->
+      <div id="mobile-menu" class="sm:hidden hidden bg-white shadow-md menu-transition transform translate-y-[-100%]">
+          <div class="flex flex-col items-center py-4 space-y-4 fade-in">
+              <a href="index.html" class="text-gray-700 flex items-center space-x-2 text-lg">
+                  <i class="fas fa-home"></i>
+                  <span>Home</span>
+              </a>
+              <a href="about.html" class="text-gray-700 flex items-center space-x-2 text-lg">
+                  <i class="fas fa-info-circle"></i>
+                  <span>About</span>
+              </a>
+              <a href="blog.html" class="text-gray-700 flex items-center space-x-2 text-lg">
+                  <i class="fas fa-blog"></i>
+                  <span>Blog</span>
+              </a>
+              <a href="feq.html" class="text-gray-700 flex items-center space-x-2 text-lg">
+                  <i class="fas fa-question-circle"></i>
+                  <span>FAQ</span>
+              </a>
+              <a href="contact.html" class="text-gray-700 flex items-center space-x-2 text-lg">
+                  <i class="fas fa-phone-alt"></i>
+                  <span>Contact</span>
+              </a>
+              <a href="joinus.html" class="text-gray-700 flex items-center space-x-2 text-lg">
+                  <i class="fas fa-user-plus"></i>
+                  <span>Join Us</span>
+              </a>
+          </div>
+      </div>
+  </nav>
+  
+
+    <!-- Main Content -->
+    <main>
+        <section class="blog-section">
+            <div class="container mx-auto px-4" data-aos="fade-up">
+              <!-- Section Heading -->
+              <div class="text-center mb-12">
+                <h1 class="text-4xl font-extrabold text-gray-800 mt-10 mb-8">Our Blogs</h1>
+                <p class="text-gray-500 text-base max-w-xl mx-auto">
+                  Stay updated with the latest trends, tips, and tools in cybersecurity, ethical hacking, and digital safety.
+                </p>
+              </div>
+          
+              <!-- Blog Grid -->
+              <div class="blog-grid">
+                <!-- Blog Card 1 -->
+                <div class="blog-card">
+                  <img src="blog-images/cybersecurity-practices.jpg" alt="Cybersecurity" class="blog-image" loading="lazy">
+                  <div class="blog-content">
+                    <div class="blog-icon text-blue-500"><i class="fas fa-lock"></i></div>
+                    <h3 class="blog-title">Top 10 Cybersecurity Practices</h3>
+                    <p class="text-sm text-gray-400 mb-2">By <span class="font-medium text-gray-700">Trinesh Reddy</span></p>
+                    <p>Discover essential practices to protect your digital presence in a connected world.</p>
+                    <a href="Blogs/cybersecurity-practices.html" class="blog-link">Read More →</a>
+                  </div>
+                </div>
+          
+                <!-- Blog Card 2 -->
+                <div class="blog-card">
+                  <img src="blog-images/bug-bounty.png" alt="Bug Bounty" class="blog-image" loading="lazy">
+                  <div class="blog-content">
+                    <div class="blog-icon text-green-500"><i class="fas fa-bug"></i></div>
+                    <h3 class="blog-title">What is Bug Bounty?</h3>
+                    <p class="text-sm text-gray-400 mb-2">By <span class="font-medium text-gray-700">Anand keshari</span></p>
+                    <p>Learn how ethical hackers earn by finding security flaws in major platforms.</p>
+                    <a href="Blogs/bug-bounty.html" class="blog-link">Read More →</a>
+                  </div>
+                </div>
+          
+                <!-- Blog Card 3 -->
+                <div class="blog-card">
+                  <img src="blog-images/rise-of-ethical-hacking.jpg" alt="Ethical Hacking" class="blog-image" loading="lazy">
+                  <div class="blog-content">
+                    <div class="blog-icon text-purple-500"><i class="fas fa-user-secret"></i></div>
+                    <h3 class="blog-title">The Rise of Ethical Hacking</h3>
+                    <p class="text-sm text-gray-400 mb-2">By <span class="font-medium text-gray-700">Anand keshari</span></p>
+                    <p>Explore how ethical hackers are changing the face of modern security.</p>
+                    <a href="Blogs/rise-of-ethical-hacking.html" class="blog-link">Read More →</a>
+                  </div>
+                </div>
+          
+                <!-- Blog Card 4 -->
+                <div class="blog-card">
+                  <img src="blog-images/Biometrics-in-Cybersecurity.png" alt="Biometrics" class="blog-image" loading="lazy">
+                  <div class="blog-content">
+                    <div class="blog-icon text-yellow-500"><i class="fas fa-fingerprint"></i></div>
+                    <h3 class="blog-title">Biometrics in Cybersecurity</h3>
+                    <p class="text-sm text-gray-400 mb-2">By <span class="font-medium text-gray-700">Anand keshari</span></p>
+                    <p>A look at how fingerprint, facial, and iris recognition enhance security.</p>
+                    <a href="Blogs/biometric-in-cybersecurity.html" class="blog-link">Read More →</a>
+                  </div>
+                </div>
+          
+                <!-- Blog Card 5 -->
+                <div class="blog-card">
+                  <img src="blog-images/black-hat-vs-white-hat.png" alt="Hacker Types" class="blog-image" loading="lazy">
+                  <div class="blog-content">
+                    <div class="blog-icon text-red-500"><i class="fas fa-hat-wizard"></i></div>
+                    <h3 class="blog-title">Black Hat vs White Hat</h3>
+                    <p class="text-sm text-gray-400 mb-2">By <span class="font-medium text-gray-700">Trinesh Reddy</span></p>
+                    <p>Understand the difference between ethical and malicious hacking personas.</p>
+                    <a href="Blogs/black-hat-vs-white-hat.html" class="blog-link">Read More →</a>
+                  </div>
+                </div>
+          
+                <!-- Blog Card 6 -->
+                <div class="blog-card">
+                  <img src="blog-images/protecting-against-malware.jpg" alt="Malware Protection" class="blog-image" loading="lazy">
+                  <div class="blog-content">
+                    <div class="blog-icon text-pink-500"><i class="fas fa-shield-virus"></i></div>
+                    <h3 class="blog-title">Protecting Against Malware</h3>
+                    <p class="text-sm text-gray-400 mb-2">By <span class="font-medium text-gray-700">Anand keshari</span></p>
+                    <p>Tips and tools you can use to defend your system from harmful software.</p>
+                    <a href="Blogs/protecting-against-malware.html" class="blog-link">Read More →</a>
+                  </div>
+                </div>
+          
+                <!-- Blog Card 7 -->
+                <div class="blog-card">
+                  <img src="blog-images/How-to-Spot-Phishing-Emails.png" alt="Phishing Awareness" class="blog-image" loading="lazy">
+                  <div class="blog-content">
+                    <div class="blog-icon text-orange-500"><i class="fas fa-envelope-open-text"></i></div>
+                    <h3 class="blog-title">How to Spot Phishing Emails</h3>
+                    <p class="text-sm text-gray-400 mb-2">By <span class="font-medium text-gray-700">Trinesh Reddy</span></p>
+                    <p>Learn to identify common phishing tactics and keep your inbox safe.</p>
+                    <a href="Blogs/how-to-spot-phishing-email.html" class="blog-link">Read More →</a>
+                  </div>
+                </div>
+          
+                <!-- Blog Card 8 -->
+                <div class="blog-card">
+                  <img src="blog-images/Understanding-Firewalls.png" alt="Firewalls" class="blog-image" loading="lazy">
+                  <div class="blog-content">
+                    <div class="blog-icon text-indigo-500"><i class="fas fa-shield-alt"></i></div>
+                    <h3 class="blog-title">Understanding Firewalls</h3>
+                    <p class="text-sm text-gray-400 mb-2">By <span class="font-medium text-gray-700">Trinesh Reddy</span></p>
+                    <p>How firewalls work, and why they're crucial in protecting your systems.</p>
+                    <a href="Blogs/understanding-firewall.html" class="blog-link">Read More →</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          
+    </main>
+
+    <!-- Footer -->
+     <footer class="bg-gray-800 text-white py-8 mt-16">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="grid md:grid-cols-3 gap-8">
+                <!-- About Section -->
+                <div>
+                    <h3 class="text-2xl font-semibold mb-4">About Us</h3>
+                    <p class="text-gray-400 mb-4">We are The Cyber Pioneer, a community dedicated to educating and
+                        raising awareness about cybersecurity. Join us in exploring the ever-changing world of security
+                        and technology.</p>
+                    <div class="flex space-x-4">
+                        <!-- Social Media Icons -->
+                        <a href="https://www.facebook.com/profile.php?id=61572927504079"
+                            class="text-gray-400 hover:text-white transition-colors">
+                            <i class="fab fa-facebook-f text-xl"></i>
+                        </a>
+                        <a href="https://www.youtube.com/@tcpioneer"
+                            class="text-gray-400 hover:text-white transition-colors">
+                            <i class="fab fa-youtube text-xl"></i>
+                        </a>
+                        <a href="https://wa.me/919205313045" target="_blank"
+                            class="text-gray-400 hover:text-white transition-colors">
+                            <i class="fab fa-whatsapp text-xl"></i>
+                        </a>
+
+                        <a href="https://www.instagram.com/tcpioneerorg/"
+                            class="text-gray-400 hover:text-white transition-colors">
+                            <i class="fab fa-instagram text-xl"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Quick Links Section -->
+                <div>
+                    <h3 class="text-2xl font-semibold mb-4">Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html" class="text-gray-400 hover:text-white transition-colors">Home</a></li>
+                        <li><a href="about.html" class="text-gray-400 hover:text-white transition-colors">About</a></li>
+                        <li><a href="tools.html" class="text-gray-400 hover:text-white transition-colors">Tools</a></li>
+                        <li><a href="blog.html" class="text-gray-400 hover:text-white transition-colors">Blog</a></li>
+                        <li><a href="feq.html" class="text-gray-400 hover:text-white transition-colors">FAQ</a></li>
+                        <li><a href="contact.html" class="text-gray-400 hover:text-white transition-colors">Contact</a>
+                        </li>
+                        <li><a href="disclaimer.html"
+                                class="text-gray-400 hover:text-white transition-colors">Disclaimer</a></li>
+                        <li><a href="joinus.html" class="text-gray-400 hover:text-white transition-colors">Join Us</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Contact Section -->
+                <div>
+                    <h3 class="text-2xl font-semibold mb-4">Contact Us</h3>
+                    <p class="text-gray-400 mb-4">Feel free to reach out for any questions or collaborations.</p>
+                    <p class="text-gray-400 mb-2"><i class="fas fa-phone-alt"></i>+977 9746819176</p>
+                    <p class="text-gray-400 mb-2"><i class="fas fa-envelope"></i> contact@tcpioneer.org</p>
+                    <p class="text-gray-400"><i class="fas fa-map-marker-alt"></i> Birgunj , Nepal </p>
+                </div>
+            </div>
+
+            <!-- Bottom Footer -->
+            <div class="mt-8 border-t border-gray-700 pt-4 text-center">
+                <p class="text-gray-400 text-sm">&copy; 2025 The Cyber Pioneer. All rights reserved.</p>
+                <p class="text-gray-400 text-sm mt-4">
+                    Developed by
+                    <a href="https://anandkeshari.com.np" target="_blank"
+                        class="text-blue-400 hover:text-blue-500 no-underline">
+                        Anand Keshari
+                    </a>
+                </p>
+
+            </div>
+        </div>
+    </footer>
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script src="../js/main.js"></script>
+    <script src="../js/transitions.js"></script>
+    <script type="application/ld+json">
+        {
+          "@context": "https://schema.org",
+          "@type": "WebSite",
+          "name": "The Cyber Pioneer",
+          "url": "https://www.tcpioneer.org",
+          "description": "A community dedicated to cybersecurity education and skill development."
+        }
+        </script>
+</body>
+
+</html>
